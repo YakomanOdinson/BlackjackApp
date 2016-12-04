@@ -121,6 +121,10 @@ def new_game():
 def shuffle():
     random.shuffle(deck)
 
+
+def yako():
+    print("Yako says hello")
+
 mainWindow = tkinter.Tk()
 
 # Set up the screen and frames for the dealer and player
